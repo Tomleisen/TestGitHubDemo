@@ -9,6 +9,9 @@ public class TestMethods {
 
     public static String test;
     public static String test2;
+    private int one;
+    private int two;
+
 
     public TestMethods() {
     }
@@ -27,5 +30,21 @@ public class TestMethods {
 
     public static void setTest2(String test2) {
         TestMethods.test2 = test2;
+    }
+
+    public int getOne() {
+        return one;
+    }
+
+    public void setOne(int one) {
+        this.one = one;
+    }
+
+    public int getTwo() {
+        return two;
+    }
+
+    public void setTwo(int two) {
+        this.two = two;
     }
 }
